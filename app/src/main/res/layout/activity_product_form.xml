@@ -1,0 +1,53 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText android:id="@+id/product_form_name"
+            android:hint="Nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText android:id="@+id/product_form_description"
+            android:hint="Descrição"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText android:id="@+id/product_form_category"
+            android:hint="Categoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText android:id="@+id/product_form_value"
+            android:hint="Valor"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Fornecedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText android:id="@+id/product_form_url"
+            android:hint="Url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText android:id="@+id/product_form_address"
+            android:hint="Disponível em"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText android:id="@+id/product_form_number"
+            android:hint="Número do fornecedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
